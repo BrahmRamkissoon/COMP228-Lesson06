@@ -11,21 +11,7 @@ import javax.swing.border.EmptyBorder;
 public class Program {
 	
 	public static void main(String[] args){
-		// Setup Objects
-		JFrame myFrame = new JFrame();
-		JPanel myPanel = new JPanel();
-		
-		// Properties of Objects
-		myFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		myFrame.setBounds(300, 300, 650, 600);
-		
-		// Properties of the Panel
-		myPanel.setBorder(new EmptyBorder(5, 5, 5, 5));
-		myPanel.setLayout(new BorderLayout(0, 0));
-		
-		// Assign Panel as a child object of the Frame
-		myFrame.setContentPane(myPanel);
-		
+		ExampleFrame myFrame = new ExampleFrame();
 		myFrame.setVisible(true);
 	}	
 }
