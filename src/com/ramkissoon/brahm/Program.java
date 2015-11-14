@@ -10,7 +10,7 @@ import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
 
-// Stopped at Vid 26/42 Lesson06 part 3 @ 48:38 mins
+// Stopped at Vid 30/42 Lesson07
 // Driver Class
 public class Program {
 	
