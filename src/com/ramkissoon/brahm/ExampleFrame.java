@@ -30,7 +30,7 @@ public class ExampleFrame extends JFrame {
 		//this.setBounds(100, 100, 450, 300);
 		getContentPane().setLayout(new FlowLayout());
 		
-		this._sun = new ImageIcon(ExampleFrame.class.getResource("/Assets/sun.jpg"));
+		this._sun = new ImageIcon(getClass().getResource("/Assets/sun.jpg"));
 		
 		this._firstNameLabel = new JLabel("First Name: ", SwingConstants.CENTER);
 		this._firstNameLabel.setIcon(this._sun);
